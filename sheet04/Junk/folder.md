@@ -1,0 +1,5 @@
+- not_working_model contains a useless model that was trained ~2:30h with Leon_Copy.ipynb
+- Leon_Copy.ipynb contains an adapted copy of the code that Leon provided in his youtube series
+- ll.ipynb and LunarLander_weirdBug.ipynb contain essentially the same code. They were our second try at implementing a DQN, this time for LunarLander. LunarLander_weirdBug.ipynb contains a weird bug that is worth investigating. Both scripts seemingly don't learn, even though WorkingImplementation_Do_Not_Touch was derived from LunarLander_weirdBug.
+- main.ipynb is our first attempt at implementing a DQN, for ATARI Breakout. Unfortunately our loss is always 0.25 and our policy is trash
+- second_try is a model that was trained with the same script (previous version of WorkingImplementation_Do_Not_Touch) as first_try, only longer. Unfortunately, in contrast to first_try, second_try produces very weak policies.
